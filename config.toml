@@ -1,0 +1,24 @@
+baseURL="/AlexandraShtromberg-project"
+languageCode = "en-us"
+theme = "anatole"
+[params]
+author = "Alexandra Shtromberg"
+title = "About"
+customCss = ["css/custom.css"]
+displayMode = "dark"
+description = "My name is Alexandra Shtromberg. I work in the field of Tax & Legal Technology, focusing on tax data analytics, process automation and tax compliance digitalisation. I have worked with basics of SQL, Python, R, C# and Java development. In my free time, I volunteer as an organiser and coach of Women for Women Workshop Finland, organising workshops and webinars on IT for women. I led two workshops on introduction to relational databases and also acted as a coach in workshops on Git basics. My journey in computer science is just starting - as an analytics professional, I am especially excited to see how software solutions can automate routine daily tasks in the fields of reporting and compliance and leave more time for strategy making. Image and text by Alexandra Shtromberg. All rights are reserved"
+profilePicture = "images/AlexandraShtromberg.jpg"
+
+[menu]
+
+  [[menu.main]]
+  name = "About"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
