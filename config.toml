@@ -1,4 +1,4 @@
-baseURL="/AlexandraShtromberg-project"
+baseURL="https://alexandrashtromberg.github.io/"
 languageCode = "en-us"
 theme = "anatole"
 [params]
